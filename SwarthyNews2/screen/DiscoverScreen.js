@@ -6,12 +6,12 @@ import axios from "axios";
 import { useNavigation } from '@react-navigation/native';
 
 
-const API_KEY = '5eb1bdc619e1478ab7f518d17c75ac09'; 
-const API_URL = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
-const API_URL2 = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
-const API_URL3 = 'https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
-const API_URL4 = 'https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
-const API_URL5 = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
+const API_KEY = 'YOUR-API-KEY'; 
+const API_URL = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR-API-KEY';
+const API_URL2 = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR-API-KEY';
+const API_URL3 = 'https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=YOUR-API-KEY';
+const API_URL4 = 'https://newsapi.org/v2/top-headlines?country=us&category=sports&apiKey=YOUR-API-KEY';
+const API_URL5 = 'https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=YOUR-API-KEY';
 
 const DEFAULT_COUNTRY = 'tr';
 
