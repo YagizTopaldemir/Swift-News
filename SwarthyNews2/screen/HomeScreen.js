@@ -7,11 +7,11 @@ import { useNavigation } from '@react-navigation/native';
 
 const {width,height} = Dimensions.get('window')
 
-const API_KEY = 'ff3dfbaa60654a6c90504fe1f69560b7'; 
-const API_URL = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
-const API_URL2 = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
-const API_URL3 = 'https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
-const API_URL4 = 'https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=ff3dfbaa60654a6c90504fe1f69560b7';
+const API_KEY = 'YOUR-API-KEY'; 
+const API_URL = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR-API-KEY';
+const API_URL2 = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR-API-KEY';
+const API_URL3 = 'https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=YOUR-API-KEY';
+const API_URL4 = 'https://newsapi.org/v2/top-headlines?country=us&category=science&apiKey=YOUR-API-KEY';
 
 const DEFAULT_COUNTRY = 'tr';
 
